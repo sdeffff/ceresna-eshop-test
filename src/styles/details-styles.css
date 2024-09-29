@@ -12,7 +12,8 @@
 .detail-hero {
     display: flex;
     align-items: start;
-    gap: 5rem;
+    gap: 4rem;
+    padding-top: 5rem;
 }
 
 .detail-hero section {
@@ -84,10 +85,9 @@
 
 /* size part */
 .size-part {
-    padding-block: 1rem;
+    padding-top: 1rem;
 
     border-top: 1px solid #f1f1f1;
-    border-bottom: 1px solid #f1f1f1;
 }
 
 .size-part h4 {
@@ -200,7 +200,7 @@
 /* left part */
 
 .preview-img {
-    width: 36rem;
+    width: 39rem;
 }
 
 .preview-imgs-small img {
