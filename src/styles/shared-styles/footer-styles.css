@@ -1,0 +1,99 @@
+/* footer + footer top part: */
+
+footer {
+    margin-top: 7.5rem;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-top {
+    height: 9.75rem;
+    width: 100%;
+}
+
+.footer-top div {
+    width: 100%;
+    height: 100%;
+
+    background: #000;
+}
+
+/* footer middle part */
+
+.footer-middle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-block: 2.25rem;
+
+    border-top: 2px solid #f8f8f8;
+    border-bottom: 2px solid #f8f8f8;
+
+    margin-top: 3.5rem;
+    margin-bottom: 1rem;
+}
+
+.footer-middle ul li {
+    color: #000;
+    font-weight: 400;
+
+    font-size: 1.2rem;
+}
+
+.footer-middle ul li a {
+    color: #000;
+    transition: .2s ease;
+    font-weight: 400;
+
+    font-size: 1rem;
+}
+
+.footer-middle ul li a:is(:hover, :focus) {
+    opacity: 0.5;
+}
+
+.footer-middle .adress-info {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.footer-middle .adress-info li {
+    color: #B6B6B6;
+    font-size: 1rem;
+}
+
+.footer-middle .adress-info li:first-child {
+    font-size: 1.2rem;
+}
+
+.footer-middle .adress-info li:last-child {
+    color: #000;
+}
+
+.footer-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-bottom div {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+.footer-bottom div a {
+    color: #000;
+}
+
+.footer-bottom div a ion-icon {
+    width: 1.4rem;
+    height: 1.4rem;
+}
+
+.footer-bottom img {
+    width: 3.5rem;
+}

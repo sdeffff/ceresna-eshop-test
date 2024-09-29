@@ -1,0 +1,149 @@
+/* news section */
+.news {
+    margin-top: 7rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.news-header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 1.25rem;
+}
+
+.news-header ion-icon {
+    width: 2rem;
+    height: 2rem;
+    color: #CFCFCF;
+}
+
+.news-header div {
+    width: 50%;
+    height: 1px;
+
+    background-color: #CFCFCF;
+    border-radius: 2px;
+}
+
+.news article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 0.8rem;
+
+    text-align: center;
+
+    width: 19rem;
+}
+
+.news article h2 {
+    color: #000;
+    font-weight: 300;
+
+    font-size: 2.1rem;
+}
+
+.news article p {
+    font-size: 1rem;
+}
+
+.email-main {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    gap: 1.2rem;
+}
+
+.email-sender {
+    display: flex;
+    align-items: center;
+
+    padding-block: 6px;
+
+    border-bottom: 1px solid #000;
+}
+
+.email-sender input {
+    border: none;
+    outline: none;
+
+    width: 19rem;
+
+    text-align: center;
+
+    font-size: 1.2rem;
+}
+
+.email-sender input::placeholder {
+    color: #EEECEC;
+}
+
+.email-sender button {
+    background: none;
+
+    cursor: pointer;
+}
+
+.email-sender button ion-icon { 
+    width: 1.3rem;
+    height: 1.3rem;
+}
+
+/* Instagram section */
+
+.instagram {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+
+    margin-top: 7rem;
+}
+
+.instagram-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.instagram-header h1 {
+    color: #000;
+    font-weight: 300;
+
+    font-size: 2.3rem;
+}
+
+.instagram-header a {
+    display: flex;
+    align-items: center;
+
+    color: #000;
+
+    gap: 1.25rem;
+
+    font-weight: 400;
+}
+
+.instagram-header a div {
+    height: 1px;
+    width: 3rem;
+
+    background-color: #000;
+}
+
+.instagram-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.instagram-list li a img {
+    width: 16.5rem;
+}
