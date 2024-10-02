@@ -65,6 +65,7 @@
 .email-sender {
     display: flex;
     align-items: center;
+    gap: 1rem;
 
     padding-block: 6px;
 
@@ -128,7 +129,7 @@
 
     gap: 1.25rem;
 
-    font-weight: 400;
+    font-weight: 500;
 }
 
 .instagram-header a div {

@@ -37,8 +37,10 @@
 .hero-txt p {
     background: #000;
 
-    padding: 3px 5px;
+    padding: 4px 7px;
     font-weight: 400;
+
+    font-size: 1.05rem;
 
     text-transform: uppercase;
 }
@@ -51,6 +53,12 @@
     background-color: #ffffff80;
 
     cursor: pointer;
+
+    transition: .3s ease;
+}
+
+.hero article button:is(:hover, :focus) {
+    background-color: #ffffffb0;
 }
 
 /* Categories */
@@ -88,24 +96,37 @@
 }
 
 .read-more-btn {
+    position: relative;
+
     display: flex;
     align-items: center;
-    gap: 10px;
+
+    width: 9rem;
 
     font-size: 1rem;
     
     background: none;
 
-    font-weight: 500;
+    font-weight: 600;
 
     cursor: pointer;
 }
 
-.read-more-btn span {
+.read-more-btn::after {
+    content: "";
+    position: absolute;
+    right: 0;
+
+    height: 1.6px;
     width: 2rem;
-    height: 1px;
 
     background-color: #000;
+
+    transition: .2s ease;
+}
+
+.read-more-btn:hover::after {
+    width: 2.25rem;
 }
 
 .state img {
