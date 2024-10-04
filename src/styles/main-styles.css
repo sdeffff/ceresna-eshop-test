@@ -6,7 +6,7 @@
     background: #311616;
 
     padding-bottom: 8rem;
-    padding-inline: 14rem;
+    padding-inline: 13rem;
 
     display: flex;
     align-items: end;
@@ -65,6 +65,7 @@
 .categories {
     display: flex;
     flex-direction: column;
+    align-items: center;
 
     gap: 10rem;
 
@@ -79,6 +80,8 @@
     background-color: #fbfbfb;
 
     padding-inline: 4rem;
+
+    max-width: 71rem;
 }
 
 .state h1 {
@@ -88,7 +91,7 @@
     font-size: 5rem;
 }
 
-.state article {
+.state article div {
     display: flex;
     flex-direction: column;
 
@@ -140,6 +143,11 @@
 /* Blog part */
 .blog {
     margin-top: 10rem;
+    
+    display: flex;
+    flex-direction: column;
+
+    gap: 4rem;
 }
 
 .blog h1 {
@@ -151,7 +159,6 @@
 .blog-list {
     display: flex;
     align-items: center;
-    justify-content: space-between;
 
     gap: 2.47rem;
 }
@@ -180,7 +187,7 @@
     transform: translateY(50px) translateX(50px);
 }
 
-.blog-list .img-cover {
+.img-cover {
     content: "";
     background-color: #f5f5f5;
 
@@ -206,4 +213,79 @@
 
 .blog-list li a article p {
     height: 67.2px;
+}
+
+@media (min-width: 1536px) {
+    .hero {
+        height: 52rem;
+    }
+
+    .hero-txt {
+        transform: translateY(-65px);
+    }
+
+    .companies li div {
+        height: 2px;
+        width: 11rem;
+    }
+
+    .state {
+        gap: 11rem;
+        max-width: 100%;
+    }
+
+    .state article p {
+        font-size: 1.2rem;
+    }
+
+    .read-more-btn {
+        font-size: 1.2rem;
+    }
+
+    .read-more-btn::after {
+        right: -1rem;
+    }
+
+    .state img {
+        width: 100%;
+    }
+
+    .blog {
+        gap: 7rem;
+    }
+
+    .blog-list {
+        gap: 7.5rem;
+    }
+
+    .blog-list li {
+        max-width: 25rem;
+    }
+
+    .img-cover {
+        width: 25rem;
+        height: 25.75rem;
+    }
+
+    .blog-list li a img {
+        width: 25rem;
+        height: 25.75rem;
+        transform: translateY(66px) translateX(66px);
+    }
+
+    .blog-list li a article h2 {
+        font-size: 1.6rem;
+    }
+
+    .blog-list li a article p {
+        font-size: 1.05rem;
+    }
+
+    .news article h2 {
+        font-size: 2.5rem;
+    }
+
+    .news article p {
+        font-size: 1.2rem;
+    }
 }
