@@ -97,7 +97,7 @@
 }
 
 .carousel li:hover::after {
-    opacity: 0.65;
+    opacity: 0.35;
 }
 
 .desc {
@@ -129,6 +129,17 @@
     padding-bottom: 4px;
 }
 
-.carousel li img {
+.slider-img {
     width: 15.8rem;
+    height: 15.8rem;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    transition: .3s ease;
 }
+/* 
+.slider-img:hover {
+    background-image: url(../../../images/slider-imgs/slider-img-1.png);
+} */
