@@ -2,7 +2,7 @@
 .hero {
     position: relative;
 
-    height: 50rem;
+    height: 60rem;
     background: #311616;
 
     padding-bottom: 8rem;
@@ -21,6 +21,8 @@
     flex-direction: column;
     align-items: start;
     gap: 1.25rem;
+
+    transform: translateY(-3rem);
 }
 
 .hero article h1 {
@@ -95,7 +97,7 @@
     display: flex;
     flex-direction: column;
 
-    gap: 1.5rem;
+    gap: 2rem;
 }
 
 .read-more-btn {
@@ -215,9 +217,9 @@
     height: 67.2px;
 }
 
-@media (min-width: 1536px) {
+@media (min-width: 1600px) {
     .hero {
-        height: 52rem;
+        height: 75rem;
     }
 
     .hero-txt {
@@ -279,13 +281,5 @@
 
     .blog-list li a article p {
         font-size: 1.05rem;
-    }
-
-    .news article h2 {
-        font-size: 2.5rem;
-    }
-
-    .news article p {
-        font-size: 1.2rem;
     }
 }

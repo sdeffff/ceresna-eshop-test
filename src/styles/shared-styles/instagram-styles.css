@@ -149,7 +149,16 @@
     width: 16.5rem;
 }
 
-@media (min-width: 1536px) {
+@media (min-width: 1600px) {
+    .news-header ion-icon {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .news article p {
+        font-size: 1.15rem;
+    }
+    
     .instagram-header a {
         font-size: 1.2rem;
     }

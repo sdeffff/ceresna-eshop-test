@@ -29,7 +29,7 @@ button {
 }
 
 .container {
-    padding-inline: 12rem;
+    padding-inline: 13rem;
     padding-bottom: 8rem;
     padding-top: 8rem;
 }
@@ -118,7 +118,7 @@ button {
     opacity: 0.55;
 }
 
-@media (min-width: 1536px) {
+@media (min-width: 1600px) {
     .notif {
         font-size: 0.9rem;
     }
@@ -131,7 +131,13 @@ button {
         font-size: 1.05rem;
     }
 
+    .main-header nav a ion-icon {
+        width: 1.4rem;
+        height: 1.4rem;
+    }
+
     .header-logo {
+        width: 7rem;
         transform: translateX(4rem);
     }
 }

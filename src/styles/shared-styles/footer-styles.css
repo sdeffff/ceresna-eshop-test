@@ -98,7 +98,7 @@ footer {
     width: 3.5rem;
 }
 
-@media (min-width: 1536px) {
+@media (min-width: 1600px) {
     .footer-middle ul li a {
         font-size: 1.05rem;
     }

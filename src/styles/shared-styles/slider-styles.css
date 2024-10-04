@@ -140,7 +140,7 @@
     transition: .3s ease;
 }
 
-@media (min-width: 1536px) {
+@media (min-width: 1600px) {
     .slider-img {
         width: 22.5rem;
         height: 22.5rem;

@@ -17,7 +17,7 @@
     background-color: #F1F1F1;
 }
 
-@media (min-width: 1536px) {
+@media (min-width: 1600px) {
     .companies li img {
         height: 5.5rem;
     }
