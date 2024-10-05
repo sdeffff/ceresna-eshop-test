@@ -308,3 +308,67 @@
         font-size: 1.05rem;
     }
 }
+
+@media (min-width: 2000px) {
+    .hero {
+        padding-inline: 16rem;
+    }
+
+    .hero-txt p {
+        font-size: 1.15rem;
+    }
+
+    .hero article h1 {
+        font-size: 5.75rem;
+    }
+
+    .hero article h4 {
+        font-size: 1.35rem;
+    }
+
+    .hero article button {
+        font-size: 1.2rem;
+    }
+
+    .state {
+        padding-inline: 9rem;
+    }
+
+    .state article p {
+        font-size: 1.35rem;
+    }
+
+    .read-more-btn {
+        font-size: 1.4rem;
+    }
+
+    .read-more-btn::after {
+        right: -2.5rem;
+    }
+
+    .blog h1 {
+        font-size: 3.2rem;
+    }
+
+    .blog-list {
+        gap: 24rem;
+    }
+
+    .img-cover {
+        width: 29rem;
+        height: 29.75rem;
+    }
+
+    .blog-list li a img {
+        width: 29rem;
+        height: 29.75rem;
+    }
+
+    .blog-list li a article {
+        gap: 1.4rem;
+    }
+
+    .blog-list li a article h2 {
+        font-size: 1.8rem;
+    }
+}

@@ -142,7 +142,7 @@
 
 @media (min-width: 1440px) {
     .wrapper {
-        max-width: 69.1rem;
+        max-width: 64.1rem;
     }
 
     .slider-img {
@@ -151,7 +151,22 @@
     }
 }
 
+@media (min-width: 1536px) {
+    .wrapper {
+        min-width: 70.5rem;
+    }
+
+    .slider-img {
+        width: 16.7rem;
+        height: 16.7rem;
+    }
+}
+
 @media (min-width: 1600px) {
+    .slider-wrapper {
+        transform: translateY(-3.5rem);
+    }
+
     .slider-img {
         width: 22.5rem;
         height: 22.5rem;
@@ -174,5 +189,32 @@
 
     .desc h3 {
         font-size: 1rem;
+    }
+}
+
+@media (min-width: 2000px) {
+    .slider-wrapper {
+        transform: translateY(-60px);
+    }
+
+    .wrapper {
+        max-width: 128rem;
+    }
+
+    .slider-img {
+        width: 31rem;
+        height: 31rem;
+    }
+
+    .carousel li[data-new="true"]::before {
+        font-size: 1.25rem;
+    }
+
+    .desc h3 {
+        font-size: 1.45rem;
+    }
+
+    .desc div p {
+        font-size: 1.3rem;
     }
 }

@@ -173,3 +173,44 @@
         width: 22.5rem;
     }
 }
+
+@media (min-width: 2000px) {
+    .news-header ion-icon {
+        width: 4rem;
+        height: 4rem;
+    }
+
+    .news article {
+        width: 27rem;
+    }
+
+    .news article h2 {
+        font-size: 3rem;
+    }
+
+    .news article p {
+        font-size: 1.6rem;
+    }
+
+    .email-sender input {
+        width: 25rem;
+        font-size: 1.6rem;
+    }
+
+    .eamil-sender button ion-icon {
+        width: 1.6rem;
+        height: 1.6rem;
+    }
+
+    .instagram-header h1 {
+        font-size: 3rem;
+    }
+
+    .instagram-header a {
+        font-size: 1.6rem;
+    }
+
+    .instagram-list li a img {
+        width: 32.5rem;
+    }
+}
