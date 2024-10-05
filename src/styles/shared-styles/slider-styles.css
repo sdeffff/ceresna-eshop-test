@@ -142,7 +142,7 @@
 
 @media (min-width: 1440px) {
     .wrapper {
-        width: 69.1rem;
+        max-width: 69.1rem;
     }
 
     .slider-img {
