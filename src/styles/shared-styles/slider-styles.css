@@ -113,13 +113,17 @@
     flex-direction: column;
 }
 
-.desc div p {
-    background: none;
-}
-
 .desc h3 {
     font-size: 0.9rem;
     font-weight: 400;
+}
+
+.desc div p {
+    font-weight: 400;
+
+    font-size: 0.85rem;
+
+    background: none;
 }
 
 .carousel article ion-icon {
@@ -160,6 +164,11 @@
         width: 16.7rem;
         height: 16.7rem;
     }
+
+    .carousel li::after {
+        width: 16.7rem;
+        height: 16.7rem;
+    }
 }
 
 @media (min-width: 1600px) {
@@ -187,8 +196,12 @@
         max-width: 94rem;
     }
 
-    .desc h3 {
+    .desc div p {
         font-size: 1rem;
+    }
+
+    .desc h3 {
+        font-size: 1.1rem;
     }
 }
 

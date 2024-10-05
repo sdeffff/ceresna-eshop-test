@@ -234,6 +234,10 @@
         gap: 2.5rem;
     }
 
+    .blog-list li a {
+        gap: 7rem;
+    }
+
     .blog-list li a img {
         width: 18rem;
         height: 18.75rem;
@@ -301,7 +305,7 @@
     }
 
     .blog-list li a article h2 {
-        font-size: 1.6rem;
+        font-size: 1.7rem;
     }
 
     .blog-list li a article p {

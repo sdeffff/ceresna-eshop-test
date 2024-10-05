@@ -35,6 +35,11 @@ footer {
     margin-bottom: 1rem;
 }
 
+.footer-middle ul {
+    display: flex;
+    flex-direction: column;
+}
+
 .footer-middle ul li {
     color: #000;
     font-weight: 400;
@@ -100,6 +105,10 @@ footer {
 
 @media (min-width: 1600px) {
     .footer-middle ul li a {
-        font-size: 1.05rem;
+        font-size: 1.15rem;
+    }
+
+    .footer-middle ul {
+        gap: 0.25rem;
     }
 }

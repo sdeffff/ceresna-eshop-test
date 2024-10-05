@@ -2,10 +2,6 @@ const carousel = document.querySelector(".carousel");
 
 let isDragged = false;
 
-const dragStart = () => {
-    isDragged = true;
-}
-
 const dragStop = () => {
     isDragged = false;
     carousel.style.paddingLeft = "0px";
@@ -13,7 +9,9 @@ const dragStop = () => {
 
 const dragging = (e) => {
     if(!isDragged) return;
+
     e.preventDefault();
+    
     carousel.scrollLeft = e.pageX;
     carousel.style.paddingLeft = "224px";
 }

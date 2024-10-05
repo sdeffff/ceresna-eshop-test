@@ -98,7 +98,7 @@ button {
 
 .discount {
     display: flex;
-    gap: 2px;
+    gap: 4px;
 }
 
 .discount span {
@@ -135,11 +135,15 @@ button {
     }
 
     .main-header nav {
-        gap: 3rem;
+        gap: 3.25rem;
     }
 
     .main-header nav a {
-        font-size: 1.05rem;
+        font-size: 1.1rem;
+    }
+
+    .discount span {
+        padding-inline: 5px;
     }
 
     .main-header nav a ion-icon {
@@ -149,7 +153,7 @@ button {
 
     .header-logo {
         width: 7rem;
-        transform: translateX(4rem);
+        transform: translateX(5rem);
     }
 }
 
