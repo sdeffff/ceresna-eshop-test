@@ -146,7 +146,13 @@
 }
 
 .instagram-list li a img {
-    width: 16.5rem;
+    width: 13.5rem;
+}
+
+@media (min-width: 1440px) {
+    .instagram-list li a img {
+        width: 16.5rem;
+    }
 }
 
 @media (min-width: 1600px) {

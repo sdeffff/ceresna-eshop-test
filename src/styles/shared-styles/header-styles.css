@@ -29,9 +29,8 @@ button {
 }
 
 .container {
-    padding-inline: 13rem;
-    padding-bottom: 8rem;
-    padding-top: 8rem;
+    padding-inline: 2rem;
+    padding-block: 6rem;
 }
 
 /* Header section */
@@ -56,13 +55,13 @@ button {
     position: fixed;
 
     left: 0;
-    top: 2%;
+    top: 2rem;
 
     display: flex;
     justify-content: space-between;
 
     padding-block: 2.1rem;
-    padding-inline: 13rem;
+    padding-inline: 2rem;
 
     width: 100%;
     background-color: #fff;
@@ -116,6 +115,18 @@ button {
 
 .main-header nav a:is(:hover, :focus) {
     opacity: 0.55;
+}
+
+@media (min-width: 1440px) {
+    .container {
+        padding-inline: 13rem;
+        padding-block: 8rem;
+    }
+
+    .main-header {
+        padding-inline: 13rem;
+        top: 2%;
+    }
 }
 
 @media (min-width: 1600px) {

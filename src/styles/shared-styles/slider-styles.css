@@ -7,7 +7,7 @@
 }
 
 .wrapper {
-    max-width: 1106px;
+    max-width: 55rem;
 }
 
 .carousel {
@@ -130,14 +130,25 @@
 }
 
 .slider-img {
-    width: 16.35rem;
-    height: 16.35rem;
+    width: 14.35rem;
+    height: 14.35rem;
 
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 
     transition: .3s ease;
+}
+
+@media (min-width: 1440px) {
+    .wrapper {
+        width: 69.1rem;
+    }
+
+    .slider-img {
+        width: 16.35rem;
+        height: 16.35rem;
+    }
 }
 
 @media (min-width: 1600px) {
