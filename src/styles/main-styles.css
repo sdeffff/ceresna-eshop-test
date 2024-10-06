@@ -248,11 +248,27 @@
 
 @media (min-width: 1600px) {
     .hero {
-        height: 75rem;
+        height: 70rem;
+        padding-inline: 15rem;
     }
 
     .hero-txt {
         transform: translateY(-65px);
+    }
+    .hero-txt p {
+        font-size: 1.15rem;
+    }
+
+    .hero article h1 {
+        font-size: 5.25rem;
+    }
+
+    .hero article h4 {
+        font-size: 1.35rem;
+    }
+
+    .hero article button {
+        font-size: 1.1rem;
     }
 
     .companies li div {
@@ -261,12 +277,17 @@
     }
 
     .state {
-        gap: 11rem;
+        gap: 6rem;
         max-width: 100%;
+        padding-inline: 6rem;
     }
 
     .state article p {
         font-size: 1.2rem;
+    }
+
+    .state img {
+        width: 100%;
     }
 
     .read-more-btn {
@@ -274,11 +295,8 @@
     }
 
     .read-more-btn::after {
-        right: -1rem;
-    }
-
-    .state img {
-        width: 100%;
+        width: 2.75rem;
+        right: -2rem;
     }
 
     .blog {
@@ -286,7 +304,7 @@
     }
 
     .blog-list {
-        gap: 7.5rem;
+        gap: 5.4rem;
     }
 
     .blog-list li {
@@ -294,14 +312,14 @@
     }
 
     .img-cover {
-        width: 25rem;
-        height: 25.75rem;
+        width: 24rem;
+        height: 24.75rem;
     }
 
     .blog-list li a img {
-        width: 25rem;
-        height: 25.75rem;
-        transform: translateY(66px) translateX(66px);
+        width: 24rem;
+        height: 24.75rem;
+        transform: translateY(5rem) translateX(5rem);
     }
 
     .blog-list li a article h2 {
@@ -319,7 +337,7 @@
     }
 
     .hero-txt p {
-        font-size: 1.15rem;
+        font-size: 1.2rem;
     }
 
     .hero article h1 {
@@ -355,17 +373,17 @@
     }
 
     .blog-list {
-        gap: 24rem;
+        gap: 21rem;
     }
 
     .img-cover {
-        width: 29rem;
-        height: 29.75rem;
+        width: 31rem;
+        height: 31.75rem;
     }
 
     .blog-list li a img {
-        width: 29rem;
-        height: 29.75rem;
+        width: 31rem;
+        height: 31.75rem;
     }
 
     .blog-list li a article {

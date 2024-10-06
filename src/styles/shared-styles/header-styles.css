@@ -29,7 +29,7 @@ button {
 }
 
 .container {
-    padding-inline: 2rem;
+    padding-inline: 3rem;
     padding-block: 6rem;
 }
 
@@ -55,13 +55,13 @@ button {
     position: fixed;
 
     left: 0;
-    top: 2rem;
+    top: 1rem;
 
     display: flex;
     justify-content: space-between;
 
     padding-block: 2.1rem;
-    padding-inline: 2rem;
+    padding-inline: 3rem;
 
     width: 100%;
     background-color: #fff;
@@ -130,12 +130,20 @@ button {
 }
 
 @media (min-width: 1600px) {
+    .container {
+        padding-inline: 15rem;
+    }
+
     .notif {
         font-size: 0.9rem;
     }
 
+    .main-header {
+        padding-inline: 15rem;
+    }
+
     .main-header nav {
-        gap: 3.25rem;
+        gap: 3rem;
     }
 
     .main-header nav a {
@@ -153,11 +161,15 @@ button {
 
     .header-logo {
         width: 7rem;
-        transform: translateX(5rem);
+        transform: translateX(4.5rem);
     }
 }
 
 @media (min-width: 2000px) {
+    .notif  {
+        font-size: 1rem;
+    }
+
     .container {
         padding-inline: 16rem;
     }
@@ -177,5 +189,10 @@ button {
     .main-header nav a ion-icon {
         width: 1.7rem;
         height: 1.7rem;
+    }
+
+    .header-logo {
+        width: 8rem;
+        transform: translateX(5.5rem);
     }
 }
