@@ -26,12 +26,12 @@
 }
 
 .hero article h1 {
-    font-size: 5rem;
+    font-size: 4.5rem;
     font-weight: 300;
 }
 
 .hero article h4 {
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 300;
     letter-spacing: 2px;
 }
@@ -50,7 +50,7 @@
 .hero article button {
     padding: 15px 20px;
 
-    font-size: 1.05rem;
+    font-size: 0.9rem;
     color: #000;
     background-color: #ffffff80;
 
@@ -82,8 +82,6 @@
     background-color: #fbfbfb;
 
     padding-inline: 3rem;
-
-    max-width: 71rem;
 }
 
 .state h1 {
@@ -98,6 +96,14 @@
     flex-direction: column;
 
     gap: 2rem;
+}
+
+.state img {
+    width: 30rem;
+
+    transform: translateY(75px);
+
+    pointer-events: none;
 }
 
 .read-more-btn {
@@ -134,14 +140,6 @@
     width: 2.25rem;
 }
 
-.state img {
-    width: 30rem;
-
-    transform: translateY(75px);
-
-    pointer-events: none;
-}
-
 /* Blog part */
 .blog {
     margin-top: 10rem;
@@ -161,12 +159,11 @@
 .blog-list {
     display: flex;
     align-items: center;
-
-    gap: 0;
+    justify-content: space-between;
 }
 
 .blog-list li {
-    max-width: 22rem;
+    width: 31.5%;
 }
 
 .blog-list li a {
@@ -183,18 +180,18 @@
 
 .blog-list li a img {
     position: relative;
-    width: 15rem;
-    height: 15.75rem;
+    width: 100%;
+    height: 100%;
 
-    transform: translateY(25px) translateX(25px);
+    transform: translate(18%, 18%);
 }
 
 .img-cover {
     content: "";
     background-color: #f5f5f5;
 
-    width: 15rem;
-    height: 15.75rem;
+    width: 24.5vw;
+    height: 26vw;
 }
 
 .blog-list li a article {
@@ -202,6 +199,8 @@
     flex-direction: column;
 
     gap: 1.2rem;
+
+    max-width: 18rem;
 }
 
 .blog-list li a article h2,
@@ -214,7 +213,44 @@
 }
 
 .blog-list li a article p {
-    height: 67.2px;
+    height: 5.5rem;
+}
+
+@media (min-width: 1230px) {
+    .hero {
+        padding-inline: 10rem;
+    }
+
+    .blog-list li {
+        width: 30.75%;
+    }
+
+    .img-cover {
+        width: 19.5vw;
+        height: 21vw;
+    }
+}
+
+@media (min-width: 1366px) {
+    .hero article h1 {
+        font-size: 5rem;
+    }
+
+    .hero article h4 {
+        font-size: 1.2rem;
+    }
+
+    .hero article button {
+        font-size: 1.05rem;
+    }
+
+    .state img {
+        transform: translateY(100px);
+    }
+
+    .blog-list li {
+        width: 22.5vw;
+    }
 }
 
 @media (min-width: 1440px) {
@@ -227,29 +263,37 @@
     }
 
     .state h1 {
-        font-size: 5rem;
-    }
-
-    .blog-list {
-        gap: 2.5rem;
+        font-size: 4.75rem;
     }
 
     .blog-list li a {
         gap: 7rem;
     }
 
-    .blog-list li a img {
+    .img-cover {
         width: 18rem;
         height: 18.75rem;
+    }
 
-        transform: translateY(50px) translateX(50px);
+    .blog-list li a img {
+        transform: translate(22%, 22%);
+    }
+
+    .blog-list li a article p {
+        height: 67.2px;
+    }
+}
+
+@media (min-width: 1536px) {
+    .hero {
+        padding-inline: 11rem;
     }
 }
 
 @media (min-width: 1600px) {
     .hero {
         height: 70rem;
-        padding-inline: 15rem;
+        padding-inline: 13rem;
     }
 
     .hero-txt {
@@ -279,7 +323,7 @@
     .state {
         gap: 6rem;
         max-width: 100%;
-        padding-inline: 6rem;
+        padding-inline: 4rem;
     }
 
     .state article p {
@@ -287,7 +331,7 @@
     }
 
     .state img {
-        width: 100%;
+        width: 50%;
     }
 
     .read-more-btn {
@@ -303,23 +347,17 @@
         gap: 7rem;
     }
 
-    .blog-list {
-        gap: 5.4rem;
+    .blog-list li {
+        width: 23.5vw;
     }
 
-    .blog-list li {
-        max-width: 25rem;
+    .blog-list li a {
+        gap: 9rem;
     }
 
     .img-cover {
-        width: 24rem;
-        height: 24.75rem;
-    }
-
-    .blog-list li a img {
-        width: 24rem;
-        height: 24.75rem;
-        transform: translateY(5rem) translateX(5rem);
+        width: 19.5vw;
+        height: 20.75vw;
     }
 
     .blog-list li a article h2 {
@@ -328,6 +366,12 @@
 
     .blog-list li a article p {
         font-size: 1.05rem;
+    }
+}
+
+@media (min-width: 1720px) {
+    .state img {
+        width: 100%;
     }
 }
 
@@ -353,7 +397,7 @@
     }
 
     .state {
-        padding-inline: 9rem;
+        gap: 10rem;
     }
 
     .state article p {
@@ -373,15 +417,22 @@
     }
 
     .blog-list {
-        gap: 21rem;
+        gap: 14rem;
     }
 
-    .img-cover {
-        width: 31rem;
-        height: 31.75rem;
+    .blog-list li {
+        max-width: 31rem;
+    }
+
+    .blog-list li a {
+        gap: 12rem;
     }
 
     .blog-list li a img {
+        transform: translate(23%, 23%);
+    }
+
+    .img-cover {
         width: 31rem;
         height: 31.75rem;
     }
@@ -391,6 +442,6 @@
     }
 
     .blog-list li a article h2 {
-        font-size: 1.8rem;
+        font-size: 2rem;
     }
 }

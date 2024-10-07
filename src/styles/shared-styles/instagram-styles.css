@@ -144,16 +144,17 @@
 .instagram-list {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    
+    gap: 1.25rem;
 }
 
 .instagram-list li a img {
-    width: 13rem;
+    width: 100%;
 }
 
 @media (min-width: 1440px) {
-    .instagram-list li a img {
-        width: 16.5rem;
+    .instagram-list {
+        gap: 1.5rem;
     }
 }
 
@@ -186,13 +187,13 @@
         width: 1.5rem;
         height: 1.5rem;
     }
+
+    .instagram-list {
+        gap: 1.75rem;
+    }
     
     .instagram-header a {
         font-size: 1.2rem;
-    }
-
-    .instagram-list li a img {
-        width: 20.75rem;
     }
 }
 
@@ -219,9 +220,13 @@
         font-size: 1.6rem;
     }
 
-    .eamil-sender button ion-icon {
+    .email-sender button ion-icon {
         width: 1.6rem;
         height: 1.6rem;
+    }
+
+    .instagram-list {
+        gap: 2rem;
     }
 
     .instagram-header h1 {
@@ -230,9 +235,5 @@
 
     .instagram-header a {
         font-size: 1.6rem;
-    }
-
-    .instagram-list li a img {
-        width: 32.5rem;
     }
 }

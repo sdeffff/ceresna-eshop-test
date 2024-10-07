@@ -111,4 +111,20 @@ footer {
     .footer-middle ul {
         gap: 0.25rem;
     }
+
+    .footer-middle 
+    .adress-info li {
+        font-size: 1.1rem;
+    }
+}
+
+@media (min-width: 2000px) {
+    .footer-middle ul li a {
+        font-size: 1.3rem;
+    }
+
+    .footer-middle 
+    .adress-info li {
+        font-size: 1.2rem;
+    }
 }

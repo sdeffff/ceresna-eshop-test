@@ -4,6 +4,8 @@
     align-items: center;
     justify-content: center;
     transform: translateY(-45px);
+
+    padding-inline: 3rem;
 }
 
 .wrapper {
@@ -70,36 +72,6 @@
     z-index: 1;
 }
 
-.carousel li::after {
-    content: 'Pozrieť viac';
-    color: #fff;
-
-    position: absolute;
-    top: 0;
-    left: 0;
-
-    width: 100%;
-    height: 14.35rem;
-
-    background-color: #0000006d;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    font-size: 1.45rem;
-
-    transition: .2s ease;
-
-    pointer-events: none;
-
-    opacity: 0;
-}
-
-.carousel li:hover::after {
-    opacity: 0.35;
-}
-
 .desc {
     display: flex;
     align-items: end;
@@ -144,9 +116,27 @@
     transition: .3s ease;
 }
 
+@media (min-width: 1024px) {
+    .wrapper {
+        max-width: 91.75vw;
+    }
+}
+
+@media (min-width: 1230px) {
+    .wrapper {
+        max-width: 74.75vw;
+    }
+}
+
+@media (min-width: 1366px) {
+    .wrapper {
+        max-width: 77.5vw;
+    }
+}
+
 @media (min-width: 1440px) {
     .wrapper {
-        max-width: 64.1rem;
+        max-width: 67.5rem;
     }
 
     .slider-img {
@@ -157,12 +147,12 @@
 
 @media (min-width: 1536px) {
     .wrapper {
-        min-width: 70.5rem;
+        min-width: 74rem;
     }
 
     .slider-img {
-        width: 16.7rem;
-        height: 16.7rem;
+        width: 17.5rem;
+        height: 17.5rem;
     }
 
     .carousel li::after {
@@ -176,10 +166,9 @@
         transform: translateY(-3.5rem);
     }
 
-    .slider-img,
-    .carousel li::after {
-        width: 21.2rem;
-        height: 21.2rem;
+    .slider-img {
+        width: 17.9vw;
+        height: 17.9vw;
     }
 
     .carousel li[data-new="true"]::before {
@@ -189,7 +178,7 @@
     }
 
     .wrapper {
-        max-width: 90rem;
+        max-width: 74.5vw;
     }
 
     .carousel {
@@ -202,6 +191,34 @@
 
     .desc h3 {
         font-size: 1.1rem;
+    }
+}
+
+@media (min-width: 1725px) {
+    .wrapper {
+        max-width: 76.75vw;
+    }
+}
+
+@media (min-width: 1880px) {
+    .wrapper {
+        max-width: 78vw;
+    }
+
+    .slider-img {
+        width: 18.25vw;
+        height: 18.25vw;
+    }
+}
+
+@media (min-width: 1920px) {
+    .wrapper {
+        width: 78.75vw;
+    }
+
+    .slider-img {
+        width: 18.35vw;
+        height: 18.35vw; 
     }
 }
 
