@@ -136,28 +136,23 @@
 
 @media (min-width: 1440px) {
     .wrapper {
-        max-width: 67.5rem;
+        max-width: 74.25vw;
     }
 
     .slider-img {
-        width: 16.35rem;
-        height: 16.35rem;
+        width: 17.5vw;
+        height: 17.5vw;
     }
 }
 
 @media (min-width: 1536px) {
     .wrapper {
-        min-width: 74rem;
+        min-width: 78vw;
     }
 
     .slider-img {
-        width: 17.5rem;
-        height: 17.5rem;
-    }
-
-    .carousel li::after {
-        width: 16.7rem;
-        height: 16.7rem;
+        width: 18.5vw;
+        height: 18.5vw;
     }
 }
 
@@ -202,12 +197,12 @@
 
 @media (min-width: 1880px) {
     .wrapper {
-        max-width: 78vw;
+        max-width: 81vw;
     }
 
     .slider-img {
-        width: 18.25vw;
-        height: 18.25vw;
+        width: 19vw;
+        height: 19vw;
     }
 }
 
@@ -228,13 +223,12 @@
     }
 
     .wrapper {
-        max-width: 128rem;
+        max-width: 75.5vw;
     }
 
-    .slider-img,
-    .carousel li::after {
-        width: 31rem;
-        height: 31rem;
+    .slider-img {
+        width: 17.2vw;
+        height: 17.2vw;
     }
 
     .carousel li[data-new="true"]::before {
@@ -247,5 +241,38 @@
 
     .desc div p {
         font-size: 1.3rem;
+    }
+}
+
+@media (min-width: 2200px) {
+    .wrapper {
+        min-width: 77.5vw;
+    }
+
+    .slider-img {
+        width: 18.5vw;
+        height: 18.5vw;
+    }
+}
+
+@media (min-width: 2400px) {
+    .wrapper {
+        min-width: 78.75vw;
+    }
+
+    .slider-img {
+        width: 18.8vw;
+        height: 18.8vw;
+    }
+}
+
+@media (min-width: 2560px) {
+    .wrapper {
+        min-width: 80.5vw;
+    }
+
+    .slider-img {
+        width: 19.25vw;
+        height: 19.25vw;
     }
 }

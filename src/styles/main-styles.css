@@ -293,7 +293,7 @@
 @media (min-width: 1600px) {
     .hero {
         height: 70rem;
-        padding-inline: 13rem;
+        padding-inline: 12rem;
     }
 
     .hero-txt {
@@ -348,7 +348,7 @@
     }
 
     .blog-list li {
-        width: 23.5vw;
+        width: 24vw;
     }
 
     .blog-list li a {
@@ -370,14 +370,24 @@
 }
 
 @media (min-width: 1720px) {
+    .state {
+        padding-inline: 6rem;
+    }
+
     .state img {
         width: 100%;
     }
 }
 
+@media (min-width: 1880px) {
+    .state {
+        padding-inline: 8rem;
+    }
+}
+
 @media (min-width: 2000px) {
     .hero {
-        padding-inline: 16rem;
+        padding-inline: 14rem;
     }
 
     .hero-txt p {
@@ -400,6 +410,10 @@
         gap: 10rem;
     }
 
+    .state img {
+        transform: translateY(110px);
+    }
+
     .state article p {
         font-size: 1.35rem;
     }
@@ -416,12 +430,8 @@
         font-size: 3.2rem;
     }
 
-    .blog-list {
-        gap: 14rem;
-    }
-
     .blog-list li {
-        max-width: 31rem;
+        width: 23.5vw;
     }
 
     .blog-list li a {
@@ -433,15 +443,26 @@
     }
 
     .img-cover {
-        width: 31rem;
-        height: 31.75rem;
+        width: 19vw;
+        height: 20.75vw;
     }
 
     .blog-list li a article {
         gap: 1.4rem;
+        max-width: 28rem;
     }
 
     .blog-list li a article h2 {
         font-size: 2rem;
+    }
+}
+
+@media (min-width: 2200px) {
+    .hero {
+        padding-inline: 16rem;
+    }
+
+    .state {
+        padding-inline: 10rem;
     }
 }
