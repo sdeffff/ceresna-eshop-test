@@ -271,8 +271,12 @@
     }
 
     .img-cover {
-        width: 18rem;
-        height: 18.75rem;
+        width: 17.75vw;
+        height: 18.5vw;
+    }
+
+    .blog-list li {
+        width: 22vw;
     }
 
     .blog-list li a img {
