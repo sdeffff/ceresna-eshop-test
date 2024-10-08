@@ -208,12 +208,12 @@
 
 @media (min-width: 1920px) {
     .wrapper {
-        width: 78.75vw;
+        width: 80.5vw;
     }
 
     .slider-img {
-        width: 18.35vw;
-        height: 18.35vw; 
+        width: 19vw;
+        height: 19vw; 
     }
 }
 
