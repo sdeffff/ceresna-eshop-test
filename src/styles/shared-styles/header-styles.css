@@ -29,7 +29,7 @@ button {
 }
 
 .container {
-    padding-inline: 3rem;
+    padding-inline: 4vw;
     padding-block: 6rem;
 }
 
@@ -61,7 +61,7 @@ button {
     justify-content: space-between;
 
     padding-block: 1.25rem;
-    padding-inline: 3rem;
+    padding-inline: 4vw;
 
     width: 100%;
     background-color: #fff;
@@ -76,7 +76,7 @@ button {
 }
 
 .header-logo {
-    width: 5.5rem;
+    width: 6vw;
     transform: translateX(50px);
 }
 
@@ -92,7 +92,7 @@ button {
     color: #000;
 
     font-weight: 400;
-    font-size: 0.85rem;
+    font-size: 0.9rem;
 
     transition: .3s ease;
 }
@@ -118,117 +118,59 @@ button {
     background: #000;
 }
 
-@media (min-width: 1230px) {
-    .container {
-        padding-inline: 10rem;
-    }
-
-    .main-header {
-        padding-inline: 10rem;
-    }
-
-    .main-header nav a {
-        font-size: 0.9rem;
+@media (min-width: 768px) {
+    .header-logo {
+        width: 7vw;
     }
 }
 
-@media (min-width: 1440px) {
-    .container {
-        padding-inline: 12rem;
-        padding-block: 8rem;
+@media (min-width: 1280px) {
+    .main-header {
+        padding-inline: 8vw;
     }
 
-    .main-header {
-        padding-block: 2.1rem;
-        padding-inline: 12rem;
-        top: 2%;
+    .container {
+        padding-inline: 8vw;
+    }
+}
+
+@media (min-width: 1366px) {
+    .container {
+        padding-block: 7rem;
+    }
+
+    .main-header nav a {
+        font-size: 1rem;
     }
 }
 
 @media (min-width: 1536px) {
     .main-header {
-        padding-inline: 11rem;
+        padding-inline: 10vw;
     }
 
     .container {
-        padding-inline: 11rem;
+        padding-inline: 10vw;
+
+        padding-block: 9rem;
     }
 }
 
-@media (min-width: 1600px) {
-    .container {
-        padding-inline: 12rem;
-    }
-
-    .notif {
-        font-size: 0.9rem;
-    }
-
-    .main-header {
-        padding-inline: 12rem;
-    }
-
-    .main-header nav {
-        gap: 3rem;
-    }
-
-    .main-header nav a {
-        font-size: 1.1rem;
-    }
-
-    .discount span {
-        padding-inline: 5px;
-    }
-
+@media (min-width: 1700px) {
     .main-header nav a ion-icon {
-        width: 1.4rem;
-        height: 1.4rem;
-    }
-
-    .header-logo {
-        width: 7rem;
-        transform: translateX(4.5rem);
+        width: 21px;
+        height: 21px;
     }
 }
 
-@media (min-width: 2000px) {
-    .notif  {
-        font-size: 1rem;
+@media (min-width: 1920px) {
+    .main-header {
+        padding-inline: 13.25vw;
     }
 
     .container {
-        padding-inline: 14rem;
-    }
-
-    .main-header {
-        padding-inline: 14rem;
-    }
-
-    .main-header nav {
-        gap: 4rem;
-    }
-
-    .main-header nav a {
-        font-size: 1.25rem;
-    }
-
-    .main-header nav a ion-icon {
-        width: 1.7rem;
-        height: 1.7rem;
-    }
-
-    .header-logo {
-        width: 8rem;
-        transform: translateX(5.5rem);
+        padding-inline: 13.25vw;
+        
+        padding-block: 10rem;
     }
 }
-
-@media (min-width: 2200px) {
-    .container {
-        padding-inline: 16rem;
-    }
-
-    .main-header {
-        padding-inline: 16rem;
-    }
-} 

@@ -1,22 +1,43 @@
 /* footer + footer top part: */
 
 footer {
-    margin-top: 7.5rem;
+    margin-top: 4.5rem;
 
     display: flex;
     flex-direction: column;
 }
 
 .footer-top {
-    height: 9.75rem;
-    width: 100%;
+    position: relative;
 }
 
-.footer-top div {
-    width: 100%;
-    height: 100%;
+.footer-top::after {
+    content: "Naša predajňa";
+    position: absolute;
 
-    background: #000;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    font-size: 2.75vw;
+    color: #fff;
+}
+
+.footer-top span {
+    position: absolute;
+
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 4rem;
+    height: 2px;
+
+    background-color: #fff;
+}
+
+.footer-top img {
+    width: 100%;
 }
 
 /* footer middle part */
@@ -78,6 +99,8 @@ footer {
     color: #000;
 }
 
+/* footer bottom part */
+
 .footer-bottom {
     display: flex;
     align-items: center;
@@ -100,31 +123,5 @@ footer {
 }
 
 .footer-bottom img {
-    width: 3.5rem;
-}
-
-@media (min-width: 1600px) {
-    .footer-middle ul li a {
-        font-size: 1.15rem;
-    }
-
-    .footer-middle ul {
-        gap: 0.25rem;
-    }
-
-    .footer-middle 
-    .adress-info li {
-        font-size: 1.1rem;
-    }
-}
-
-@media (min-width: 2000px) {
-    .footer-middle ul li a {
-        font-size: 1.3rem;
-    }
-
-    .footer-middle 
-    .adress-info li {
-        font-size: 1.2rem;
-    }
+    width: 8vw;
 }

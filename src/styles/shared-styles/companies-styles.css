@@ -3,22 +3,54 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+
+    margin-bottom: 6rem;
 }
 
 .companies li img {
     width: 100%;
-    height: 4.5rem;
+    height: 4.5vw;
 }
 
 .companies div {
-    height: 1px;
-    width: 70px;
+    height: 2px;
+    width: 6rem;
 
     background-color: #F1F1F1;
 }
 
-@media (min-width: 1600px) {
+@media (min-width: 1366px) {
+    .companies {
+        margin-bottom: 7rem;
+    }
+    
     .companies li img {
-        height: 5.5rem;
+        height: 4vw;
+    }
+}
+
+@media (min-width: 1440px) {
+    .companies li img {
+        height: 3.75vw;
+    }
+}
+
+@media (min-width: 1536px) {
+    .companies {
+        margin-bottom: 9rem;
+    }
+
+    .companies li img {
+        height: 4vw;
+    }
+}
+
+@media (min-width: 1920px) {
+    .companies {
+        margin-bottom: 10rem;
+    }
+
+    .companies li img {
+        height: 3.5vw;
     }
 }
