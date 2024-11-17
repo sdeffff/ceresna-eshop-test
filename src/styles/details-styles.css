@@ -278,3 +278,53 @@
 .preview-imgs-small div:hover::before {
     opacity: 0.35;
 }
+
+@media (min-width: 900px) {
+    .detail-hero {
+        display: flex;
+    }
+
+    .preview-img-cover {
+        width: 39vw;
+    }
+
+    .detail-info li {
+        height: 4rem;
+    }
+
+    .detail-info li p {
+        font-size: 1.3rem;
+    }
+
+    .detail-right {
+        padding-top: 3rem;
+    }
+
+    .detail-buy article h2 {
+        font-size: 1.75rem;
+    }
+
+    .detail-buy article h4 {
+        font-size: 1.4rem;
+    }
+
+    .add-to-cart {
+        font-size: 1.25rem;
+    }
+
+    .size-part h4 {
+        font-size: 1.1rem;
+    }
+
+    .size-part ul li {
+        font-size: 1.25rem;
+    }
+
+    .detail-footer {
+        gap: 0;
+    }
+
+    .detail-footer li p {
+        font-size: 1.1rem;
+    }
+}

@@ -168,11 +168,11 @@
 
 @media (min-width: 1920px) {
     .slider-wrapper {
-        padding-inline: 16rem;
+        padding-inline: 18rem;
     }
 
     .slider-img {
-        width: 17.55vw;
-        height: 17.55vw;
+        width: 16.7vw;
+        height: 16.7vw;
     }
 }

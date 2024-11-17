@@ -415,10 +415,24 @@
                     e.style.transform = "translateX(8px)";
                 })
 
-                spoilers.forEach((e) => {
-                    e.style.height = "5rem"
-                })
+                if(spoilers[i].style.height === "13.25rem") {
+                    if(window.innerWidth >= 900) {
+                        spoilers[i].style.height = "4rem";
+                    } else {
+                        spoilers[i].style.height = "5rem";
+                    }
+                    plus[i].style.transform = "translateX(8px)";
+                    return;
+                }
 
+                spoilers.forEach((e) => {
+                    if(window.innerWidth >= 900) {
+                        e.style.height = "4rem";
+                    } else {
+                        e.style.height = "5rem"
+                    }
+                    
+                })
                 spoilers[i].style.height = "13.25rem";
                 plus[i].style.transform += "rotate(90deg)";
             })
